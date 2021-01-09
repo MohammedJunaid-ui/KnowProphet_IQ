@@ -76,38 +76,40 @@ a {
 
 .footer {
   background-color: #00adb5;
-  height: 70px;
-}
+  height: 77px;
+  width: 1365px;}
 
 /* Media Queries */
 
 /* For mobile phones: */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1080px) {
     .nav {
-        height: 68px;
-        width: 338px;
+        height: 207px;
+    width: 1077px;
     }
 
     .nav h1 {
-        font-size: 33px;
-        margin-left: 54px;
-        padding-top: 9px;
+        font-size: 98px;
+        margin-left: 207px;
+        padding-top: 23px;
     }
 
     .main {
-        height: 520px;
-        width: 338px;
+        height: 1578px;
+        width: 1078px;
     }
     a {
-        margin-left: 80px;
-        margin-top: 400px;
+        margin-top: 1316px;
+        font-size: 59px;
+        margin-left: 298px;
     }
+    
 
     .footer {
-        height: 58px;
+        height: 130px;
         padding-bottom: 0px;
-        width: 338px;
+        width: 1081px;
     }
+
 }
-    
