@@ -28,7 +28,7 @@ body,html {
 .main {
     height: 530px;
     width: 1365px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(226, 225, 225);
 }
 
 a {
@@ -36,6 +36,9 @@ a {
     margin-top: 400px;
 }
 
+.btn {
+    height: 100px;
+}
 .cross_line{
     display: inline-block;
     position: relative;
@@ -45,6 +48,7 @@ a {
     text-decoration: none;
     font-weight: bold;
     color: #03A9F4;
+    font-size: 20px;
 }
 .cross_line:before, .cross_line:after{
   content: '';
@@ -79,24 +83,31 @@ a {
 
 /* For mobile phones: */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
     .nav {
-        height: 200px;
-    width: 1370px;
+        height: 68px;
+        width: 338px;
     }
 
     .nav h1 {
-        font-size: 120px;
-    margin-left: 300px;
+        font-size: 33px;
+        margin-left: 54px;
+        padding-top: 9px;
     }
 
+    .main {
+        height: 520px;
+        width: 338px;
+    }
     a {
-        margin-top: 1800px;
+        margin-left: 80px;
+        margin-top: 400px;
     }
 
     .footer {
-        margin-top: 1650px;
-        width: 1380px;
+        height: 58px;
+        padding-bottom: 0px;
+        width: 338px;
     }
 }
     
