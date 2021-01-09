@@ -85,41 +85,38 @@ button {
 
 /* For mobile phones: */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 360px) {
     .nav {
-        height: 49px;    
-         width: 100%;
+        height: 83px;
+        width: 438px;
     }
 
     .nav h1 {
         
-        font-size: 21px;
-        margin-left: 296px;
+        font-size: 35px;
+        margin-left: 107px;
         padding-top: 9px;
     }
 
     .main {
-        height: 521px;
-        width: 100%;
-    }
-     
-    a {
-        margin-top: 428px;
-        font-size: 20px;
-        margin-left: 154px;
-    }
-
-    .footer {
-        height: 67px;
-        padding-bottom: 0px;
-        width: 100%;
-
+        height: 625px;
+        width: 440px;
     }
 
     button {
-        margin-top: 454px;
-        margin-left: 333px;
+        margin-top: 528px;
+        margin-left: 164px;
     }
+     
+    .footer {
+        height: 67px;
+        padding-bottom: 0px;
+        width: 440px;
+    
+
+    }
+
+   
 }
 
 /* tablets and ipads */
