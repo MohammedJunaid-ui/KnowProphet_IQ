@@ -86,27 +86,28 @@ a {
 @media only screen and (max-width: 1000px) {
     .nav {
         height: 68px;
-        width: 532px;
+        width: 338px;
     }
 
     .nav h1 {
         font-size: 33px;
-        margin-left: 147px;
+        margin-left: 54px;
         padding-top: 9px;
     }
 
     .main {
         height: 520px;
-        width: 533px;
+        width: 338px;
     }
     a {
-        margin-left: 175px;
+        margin-left: 80px;
         margin-top: 400px;
     }
 
     .footer {
-        height: 75px;
+        height: 58px;
         padding-bottom: 0px;
-        width: 533px;
+        width: 338px;
     }
 }
+    
