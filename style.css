@@ -83,27 +83,30 @@ a {
 
 /* For mobile phones: */
 
-@media screen and (max-width: 360px) {
+@media only screen and (max-width: 1000px) {
     .nav {
-        width: 341px;
-
+        height: 68px;
+        width: 532px;
     }
 
     .nav h1 {
-        margin-left: 66px;
+        font-size: 33px;
+        margin-left: 147px;
+        padding-top: 9px;
     }
 
     .main {
-        width: 341px;
-
+        height: 520px;
+        width: 533px;
     }
     a {
-        margin-left: 50px;
-        margin-top: 300px;
+        margin-left: 175px;
+        margin-top: 400px;
     }
 
     .footer {
-     
+        height: 75px;
+        padding-bottom: 0px;
+        width: 533px;
     }
 }
-    
