@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --main-bg-color: rgb(109, 209, 109);
+    --font1 : font-family: 'Poppins', sans-serif;
+}
+
+body,html {
+    margin: 0;
+}
+
+/* navigation bar */
+.nav {
+    background-color: #222831;
+    height: 50px;
+}
+
+.nav h1 {
+    margin: 0;
+    margin-left: 550px;
+    color: #eeeeee;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+/* Main Section */
+
+.main {
+    height: 530px;
+    width: 1365px;
+    background-color: rgb(255, 255, 255);
+}
+
+a {
+    margin-left: 580px;
+    margin-top: 400px;
+}
+
+.cross_line{
+    display: inline-block;
+    position: relative;
+    padding: 0.25em 1em;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+    text-decoration: none;
+    font-weight: bold;
+    color: #03A9F4;
+}
+.cross_line:before, .cross_line:after{
+  content: '';
+  position: absolute;
+  top: -7px;
+  width: 2px;
+  height: -webkit-calc(100% + 14px);
+  height: calc(100% + 14px);
+  background-color: black;
+  transition: .3s;
+}
+.cross_line:before {left: 7px;}
+.cross_line:after {right: 7px;}
+.cross_line:hover:before{
+  top: 0px;
+  left:0;
+  height: 100%;
+}
+.cross_line:hover:after{
+  top: 0px;
+  right: 0;
+  height: 100%;
+}
+/* footer */
+
+.footer {
+  background-color: #00adb5;
+  height: 70px;
+}
+
+/* Media Queries */
+
+/* For mobile phones: */
+
+@media only screen and (max-width: 768px) {
+    .nav {
+        background-color: #222831;
+        height: 50px;
+        width: 750px;
+    }
+
+    .nav h1 {
+        margin-left: 140px;
+    }
+
+    a {
+        margin-left: 180px;
+        margin-top: 400px;
+    }
+}
+    
