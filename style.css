@@ -31,101 +31,16 @@ body,html {
     background-color: rgb(226, 225, 225);
 }
 
-a {
-    margin-left: 580px;
-    margin-top: 400px;
-    font-size: 20px;
-}
 
 button {
     margin-top: 454px;
-    margin-left: 333px;
+    margin-left: 598px;
 }
-/* .cross_line{
-    display: inline-block;
-    position: relative;
-    padding: 0.25em 1em;
-    border-top: solid 2px black;
-    border-bottom: solid 2px black;
-    text-decoration: none;
-    font-weight: bold;
-    color: #03A9F4;
-    font-size: 20px;
-}
-.cross_line:before, .cross_line:after{
-  content: '';
-  position: absolute;
-  top: -7px;
-  width: 2px;
-  height: -webkit-calc(100% + 14px);
-  height: calc(100% + 14px);
-  background-color: black;
-  transition: .3s;
-}
-.cross_line:before {left: 7px;}
-.cross_line:after {right: 7px;}
-.cross_line:hover:before{
-  top: 0px;
-  left:0;
-  height: 100%;
-}
-.cross_line:hover:after{
-  top: 0px;
-  right: 0;
-  height: 100%; 
-}*/
+
 /* footer */
 
 .footer {
   background-color: #00adb5;
   height: 77px;
-  width: 100%;}
-
-/* Media Queries */
-
-/* For mobile phones: */
-
-@media only screen and (max-width: 360px) {
-    .nav {
-        height: 83px;
-        width: 438px;
-    }
-
-    .nav h1 {
-        
-        font-size: 35px;
-        margin-left: 107px;
-        padding-top: 9px;
-    }
-
-    .main {
-        height: 625px;
-        width: 440px;
-    }
-
-    button {
-        margin-top: 528px;
-        margin-left: 164px;
-    }
-     
-    .footer {
-        height: 67px;
-        padding-bottom: 0px;
-        width: 440px;
-    
-
-    }
-
-   
+  width: 100%;
 }
-
-/* tablets and ipads */
-
-/* @media screen and (min-width: 769px) and (max-width:1023px) {
-
-} */
-
-/* desktop */
-/* @media screen and (min-width: 1024px) {
-
-} */
