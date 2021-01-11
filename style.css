@@ -43,4 +43,17 @@ button {
   background-color: #00adb5;
   height: 77px;
   width: 100%;
-}
+} 
+
+/* @media screen and (max-width: 500px) {
+    .nav {
+        height: 100%;
+        width: 100%;
+    }
+
+    .nav h1 {
+        margin-left: 130px;
+    }
+} */
+
+
